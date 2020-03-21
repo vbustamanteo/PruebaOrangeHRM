@@ -1,0 +1,6 @@
+test:
+    override:
+      - robot -d results -v inputEmail:vbustamanteo@unmsm.edu.pe  Prueba/OrangeHRM.robot
+  general:
+    artifacts:
+      - "robot_results"
